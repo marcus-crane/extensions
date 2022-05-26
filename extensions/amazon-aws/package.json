@@ -77,6 +77,14 @@
       "title": "AWS Profile",
       "description": "set aws profile name",
       "placeholder": "default"
+    },
+    {
+      "name": "aws_credentials_path",
+      "type": "textfield",
+      "required": false,
+      "title": "AWS Credentials path",
+      "description": "Provide an absolute path to check for an AWS credentials file. The default is $HOME/.aws/credentials",
+      "default": "$HOME/.aws/credentials"
     }
   ],
   "dependencies": {
